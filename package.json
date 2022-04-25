@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "eslint --ignore-path .gitignore .",
-    "precommit": "npm run lint && pretty-quick"
+    "precommit": "npm run lint && pretty-quick --staged"
   },
   "browserslist": {
     "production": [
